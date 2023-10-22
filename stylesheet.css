@@ -1,0 +1,180 @@
+:root {
+    --cor-de-fundo: rgb(141, 162, 180);
+    --cor-da-letra: rgb(255, 255, 255);
+}
+
+.comprimento {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pagina {
+    width: 100%;
+}
+
+#bloco {
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+}
+
+.sub-bloco {
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.img-artigo {
+    width: 100px;
+}
+
+.feedback {
+    font: normal bold 33px Segoe UI;
+    letter-spacing: 0;
+    color: var(--cor-da-letra);
+}
+
+.link-agradecimento {
+
+    color: rgb(252, 210, 22);
+    text-decoration: none;
+}
+
+.video-introducao {
+
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    border: 1px solid black
+}
+
+.bloco-meio {
+    margin-top: 100px;
+    height: 300px;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    
+}
+
+.sub-bloco-meio {
+    width: 300px;
+    height: 100%;
+    background-color: var(--cor-de-fundo);
+}
+
+.img-curso {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao-bloco {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font: normal 20px Segoe UI;
+    letter-spacing: 0;
+    color: var(--cor-da-letra);
+    opacity: 1;
+    padding: 20px; 
+    
+}
+
+.submit-direito {
+
+    width: auto;
+    margin-top: auto; 
+    display: flex;
+    margin-left: 30%;
+    background-color: rgb(252, 210, 22);
+    
+    
+    
+}
+
+.link-button {
+
+    text-align: center;
+    font: bold 20px Segoe UI;
+    letter-spacing: 0;
+    color: rgb(85, 149, 209);
+    opacity: 1;
+    padding: 10px;
+    align-items: center; 
+}
+
+.final {
+
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    background-color: var(--cor-de-fundo)
+}
+
+.rodape {
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: bold 30px Segoe UI;
+    letter-spacing: 0;
+    opacity: 1;
+    
+}
+
+.enviada {
+
+    margin-top: 150px;
+}
+
+.botao {
+
+    
+    margin-top: 40px;
+    background-color: var(--cor-de-fundo)
+
+
+}
+
+.link-button {
+
+    color: rgb(252, 210, 22);
+    text-decoration: none;
+    font: bold 20px Segoe UI;
+    letter-spacing: 0;
+    opacity: 1;
+}
+.miolo-pagina {
+    padding: 30px;
+    margin-top: 70px;
+    width: 900px;
+    text-align: left;
+    font: bold normal normal 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    border: 1px solid black;
+    
+}
+@media (max-width: 1200px) {
+
+    .pagina {
+
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+
+    .video-introducao{
+
+        width: 100%;
+    }
+}
